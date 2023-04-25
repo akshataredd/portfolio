@@ -1,0 +1,22 @@
+.bg-custom{
+    background-color: black;
+}
+.custom-txt{
+    color:#FD4533;
+}
+.custom-txt:hover
+{
+    color:white;
+}
+.gap{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.download:hover{
+    background:#FD4533; 
+color: white;
+}
+.txt:hover
+{
+    color:black;
+}
