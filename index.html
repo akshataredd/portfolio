@@ -1,251 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-  <style>
-    .navbar-nav li{
-     padding-right: 30px;
-     padding-left: 30px;
-    }
-  </style>
-
-  </head>       
-  <div>
-    <header class=" bg-custom sticky-top">
-      <div class="container">
-    
-    <nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
-    <a class="navbar-brand custom-txt fw-bold" href="#">Akshata Reddy</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon bg-white"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link  custom-txt fw-bold" href="home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  custom-txt fw-bold" href="#about">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  custom-txt fw-bold" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  custom-txt fw-bold" href="#academic">Academic</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-txt fw-bold" href="#portfolio">Portfolio</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link  custom-txt fw-bold" href="#contact">Contact Me</a>
-        </li>
-        
-      </ul>
-      
-    </div>
-  </div>
-</nav>
-</div>
-</header><!--end of header-->
-<div id="carouselExampleIndicators" class="carousel slide border-top border-white">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://dummyimage.com/1366x400/000/fff&text=Slide1" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://dummyimage.com/1366x400/000/fff&text=Slide2" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item active"data-bs-interval="10000">
-      <img src="https://dummyimage.com/1366x400/000/fff&text=Slide3" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item active"data-bs-interval="10000">
-      <img src="https://dummyimage.com/1366x400/000/fff&text=Slide4" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> <!--end of slide show-->
-<div class="container-fluid gap " id="about">
-  <h3 class="text-center custom-heading  "> About Me</h3>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <img src="https://dummyimage.com/400x400/000/fff&text=Profile" class="img-fluid rounded-circle d-block mx-auto">
-      </div><!--end of col-md-4-->
-      <div class="col-md-8">
-       <h5> Hello,</h5> 
-       <h4> Myself Akshata Reddy</h4>
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <a href="#" download><button type="button" class="btn bg-custom text-white download">
-        <i class="bi bi-cloud-arrow-down-fill"></i>Download CV</button></a>
-      </div>
-
-    </div>
-  </div>
-</div>
-<div class="container-fluid gap even" id="skills">
-  <h3 class="text-center custom-heading "> Skills</h3>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 ga">
-        <h6 class="my-2">HTML</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-        
-        <h6 class="my-2">CSS</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-
-         <h6 class="my-2">BOOTSTRAP</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-        <h6 class="my-2">GIT & GITHUB</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-        
-
-      </div>
-      <div class="col-md-6 ga">
-        <h6 class="my-2">PHP</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-        
-        <h6 class="my-2">MYSQL</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-         <h6 class="my-2">JAVASCRIPT</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-        <h6 class="my-2">JQUERY</h6>
-        <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
-          <div class="progress-bar bg-danger" style="width: 75%"></div>
-        </div>
-        
-
-      </div>
-      
-    </div>
-  </div>
-</div>
-<div class="container-fluid gap" id="academic">
-  <h3 class="text-center custom-heading"> Academic</h3>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        
-        <ul class="timeline">
-          <li>
-            <a target="_blank" href="https://www.totoprayogo.com/#">BCA</a>
-            <a href="#" class="float-right"> 2020-2023</a>
-            <p> Currently pursuing BCA at Sharnbasava University Kalaburagi. And My Grade till 5th Sem is 9CGPA</p>
-          </li>
-          <li>
-            <a href="#">Pre University</a>
-            <a href="#" class="float-right"> 2018-2020</a>
-            <p> Completed PUC at SMT.Viramma Gangasiri Womans PU College Kalaburagi. And Passed in the Year 2020nwith Distrinction. </p>
-          </li>
-          <li>
-            <a href="#">Secondary School</a>
-            <a href="#" class="float-right">2018</a>
-            <p>Completed SSLC At Govt High School Niloor. And Passed the SSLC in 2018 With Distrinction.
-               </p>
-          </li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshata's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h2>Akshata's Portfolio</h2>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+    </nav>
 
-    </div>
-  </div>
-</div>
-<div class="container-fluid gap even" id="portfolio">
-  <h3 class="text-center custom-heading ga"> Portfolio</h3>
-  <div class="container">
-    <div class="row my-2">
-     <div class="col-md-3">
-      <img src="https://dummyimage.com/600x400/000/fff&text=Project1" class="img-fluid img-thumbnail">
-     </div>
-     <div class="col-md-3">
-      <img src="https://dummyimage.com/600x400/000/fff&text=Project2" class="img-fluid img-thumbnail">
-     </div>
-     <div class="col-md-3">
-      <img src="https://dummyimage.com/600x400/000/fff&text=Project3" class="img-fluid img-thumbnail">
-     </div>
-     <div class="col-md-3">
-      <img src="https://dummyimage.com/600x400/000/fff&text=Project4" class="img-fluid img-thumbnail">
-     </div>
-      
-    </div>
-  </div>
-</div>
-<div class="container-fluid gap" id="contact">
-  <h3 class="text-center custom-heading">Contact Me</h3>
-  <div class="container">
-    <div class="row">
-    <div class="col-md-6">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.0760946917876!2d76.79789317390869!3d17.311877283562488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc8c733d20d26e3%3A0x85036f651bbff500!2sDigisnare%20Technologies!5e0!3m2!1sen!2sin!4v1682574541361!5m2!1sen!2sin"
-      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="col-md-6 ">
-      <form>
-       
-        <div class="mb-3">
-          <input type="text" required placeholder="Enter your name*" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        
+    <section id="introduction">
+        <div class="profile-container">
+            <img src="profile.jpeg" alt="Profile Photo" class="profile-photo">
+            <h1>Hi, I'm Akshata — <span class="typing"></span></h1>
+            <p>I am passionate about building innovative, scalable digital solutions.</p>
         </div>
-        <div class="mb-3">
-          
-          <input type="text"  required placeholder="Enter your Email*"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        
-        </div>
-        <div class="mb-3">
-          
-          <input type="text" required placeholder="Enter your Contact no *" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-  </div>
+    </section>
     
-  </div>
-</div>
-</div>
-<footer class="bg-custom text-white text-center py-2 fw-bold">
-  &copy Designed By Digisnare
-</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+    
+    
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skill"><i class="fab fa-html5"></i><p>HTML</p></div>
+            <div class="skill"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+            <div class="skill"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+            <div class="skill"><i class="fab fa-java"></i><p>Java</p></div>
+            <div class="skill"><i class="fas fa-database"></i><p>MySQL</p></div>
+            <div class="skill"><i class="fas fa-leaf"></i><p>MongoDB</p></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-cards">
+            <div class="card">Project 1</div>
+            <div class="card">Project 2</div>
+            <div class="card">Project 3</div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h1>Certificates</h1>
+        <div class="certificate-frames">
+            <div class="certificate">Certificate 1</div>
+            <div class="certificate">Certificate 2</div>
+        </div>
+    </section>
+
+    <section id="social-media">
+        <h1>Connect with Me</h1>
+        <div class="social-icons">
+            <a href="https://github.com/"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form class="contact-form" method="POST" action="https://formspree.io/f/mzzevwqo">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p class="error-message" style="color: red; display: none;">Please fill in all fields correctly.</p>
+        </form>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>
