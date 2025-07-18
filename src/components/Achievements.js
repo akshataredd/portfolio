@@ -31,7 +31,7 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    <section id="achievements" className="min-h-screen bg-gradient-to-b from-white via-indigo-50 to-pink-50 py-20 px-4 md:px-20">
+    <section id="achievements" className="min-h-screen bg-white py-20 px-4 md:px-20">
       <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 leading-snug mb-12 text-center">
         <span className="inline-block align-middle mr-3 text-purple-500 text-5xl">🏆</span>
         Achievements & Certifications
