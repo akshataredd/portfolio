@@ -11,14 +11,14 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium text-sm">
-        {["Home", "Projects", "Contact"].map((item) => (
+        {["Home", "About", "Skills", "Projects","Internships", "Achievements", "Contact"].map((item) => (
           <li key={item}>
             <a
               href={`#${item.toLowerCase()}`}
               className="relative group"
             >
               {item}
-              <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-indigo-500 transition-all group-hover:w-full"></span>
+              <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-indigo-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </li>
         ))}

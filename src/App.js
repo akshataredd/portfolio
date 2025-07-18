@@ -5,7 +5,10 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Internships from "./components/Internships";
+import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
+import ContactForm from "./components/ContactForm"; // ✅ New form section
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,7 +20,10 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <Contact />
+        <Internships/>
+        <Achievements/>
+        <Contact />         {/* Old section: LinkedIn, GitHub, etc. */}
+        <ContactForm />     {/* New section: Attractive Contact Us Form */}
         <Footer />
       </div>
     </div>

@@ -1,21 +1,34 @@
 import React from "react";
-import { FaHeart, FaReact, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-indigo-50 via-purple-100 to-pink-50 py-10 px-6 mt-20 border-t border-gray-200">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
-        <div className="text-gray-700 text-sm">
-          <p>
-            Built with <FaReact className="inline text-blue-500" /> React & Tailwind CSS — Made with <FaHeart className="inline text-red-500" /> by Akshata
-          </p>
-        </div>
+    <footer className="bg-white py-6 border-t border-gray-200 mt-20">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-6 text-gray-600 text-sm">
+        
+        {/* Footer Text */}
+        <p className="mb-4 md:mb-0">
+          © {new Date().getFullYear()} Akshata V Reddy. All rights reserved.
+        </p>
 
-        <div className="flex gap-5 text-gray-600 text-lg">
-          <a href="https://github.com/akshata" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+        {/* Social Icons */}
+        <div className="flex gap-5 text-lg">
+          <a
+            href="https://github.com/akshataredd"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-black transition duration-200"
+            aria-label="GitHub"
+          >
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/akshata" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition">
+          <a
+            href="https://www.linkedin.com/in/akshata-v-reddy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-700 transition duration-200"
+            aria-label="LinkedIn"
+          >
             <FaLinkedin />
           </a>
         </div>
